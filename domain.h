@@ -57,3 +57,15 @@ public:
         cout << "Librarian Name: " << name << ", ID: " << librarianId << '\n';
     };
 };
+class Loan {
+public:
+    int readerId;
+    string bookIsbn;
+    string dueDate;
+
+    Loan() = default;
+    Loan(int rId, const string& bIsbn, const string& dDate)
+        : readerId(rId), bookIsbn(bIsbn), dueDate(dDate) {}
+
+    void display() const;
+};
