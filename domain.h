@@ -61,6 +61,9 @@ public:
     }
 };
 
+    };
+};
+
 class Loan {
 public:
     int readerId;
