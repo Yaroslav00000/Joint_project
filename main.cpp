@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "domain.h"
 
 int main() {
 	cout << "Hello, World!" << endl;
