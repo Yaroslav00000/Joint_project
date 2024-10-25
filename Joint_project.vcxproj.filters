@@ -10,6 +10,9 @@
     <Filter Include="domain">
       <UniqueIdentifier>{ddd3ca4c-8044-4049-9ca5-640cfbdfd889}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{812b72e7-4ccb-493d-8472-134ab922eef4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -23,5 +26,13 @@
     <ClInclude Include="domain.h">
       <Filter>domain</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="books.csv">
+      <Filter>data</Filter>
+    </None>
+    <None Include="readers.csv">
+      <Filter>data</Filter>
+    </None>
   </ItemGroup>
 </Project>
