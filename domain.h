@@ -43,3 +43,17 @@ public:
         cout << "Name: " << name << ", ID: " << readerId << ", Borrowed books: " << borrowedBooks << '\n';
     };
 };
+
+class Librarian {
+public:
+    string name;
+    int librarianId;
+
+    Librarian() = default;
+    Librarian(const string& n, int id)
+        : name(n), librarianId(id) {}
+
+    void display() {
+        cout << "Librarian Name: " << name << ", ID: " << librarianId << '\n';
+    };
+};
