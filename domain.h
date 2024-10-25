@@ -28,3 +28,16 @@ public:
 		cout << "Name: " << name << ", Nationality: " << nationality << '\n';
 	};
 };
+class Reader() {
+public:
+	string name;
+	int readerId;
+	int borrowedBooks;
+
+	Reader() = default;
+	Reader(const string& n, int id, int b): name(n), readerId(id), borrowedBooks(b) {}
+
+	void display() {
+		cout << "Name: " << name << ", Email: " << email << ", Phone: " << phone << '\n';
+	};
+};
