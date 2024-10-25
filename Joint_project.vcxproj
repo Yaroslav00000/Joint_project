@@ -133,6 +133,10 @@
     <ClInclude Include="domain.h" />
     <ClInclude Include="lib.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="books.csv" />
+    <None Include="readers.csv" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
